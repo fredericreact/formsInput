@@ -23,6 +23,7 @@ const valueChangeHandler = event => {
 
     return {
         value: enteredValue, 
+        isValid: valueIsValid,
         hasError,
         valueChangeHandler, 
         inputBlurHandler,
